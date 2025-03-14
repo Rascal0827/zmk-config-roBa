@@ -95,10 +95,10 @@
 
         FUNCTION {
             bindings = <
-&trans          &kp AMPERSAND    &kp ASTERISK  &trans  &trans                                &kp LS(ASTERISK)   &kp LS(N9)            &trans    &trans          &trans
-&kp TILDE       &kp DOLLAR       &kp PERCENT   &trans  &trans  &trans      &kp LESS_THAN     &kp RIGHT_BRACE    &kp PIPE              &kp SEMI  &kp LEFT_BRACE  &trans
-&kp UNDERSCORE  &kp EXCLAMATION  &kp QUESTION  &trans  &trans  &trans      &kp GREATER_THAN  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp SQT   &kp AT_SIGN     &trans
-&trans          &trans           &trans        &trans  &trans  &trans      &trans            &trans                                                             &trans
+&trans              &kp AMPERSAND    &kp ASTERISK  &trans  &trans                                &kp LS(ASTERISK)   &kp LS(N9)            &trans    &trans          &trans
+&kp TILDE           &kp DOLLAR       &kp PERCENT   &trans  &trans  &trans      &kp LESS_THAN     &kp RIGHT_BRACE    &kp PIPE              &kp SEMI  &kp LEFT_BRACE  &trans
+&kp LS(UNDERSCORE)  &kp EXCLAMATION  &kp QUESTION  &trans  &trans  &trans      &kp GREATER_THAN  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp SQT   &kp AT_SIGN     &trans
+&trans              &trans           &trans        &trans  &trans  &trans      &trans            &trans                                                             &trans
             >;
         };
 
