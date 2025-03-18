@@ -70,7 +70,6 @@
 
             label = "MKP_EXIT_AML";
         };
-    };
 
     keymap {
         // マウスレイヤーに &mkp_exit_AML LCLK 等割り当て
