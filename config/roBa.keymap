@@ -170,7 +170,7 @@
             bindings = <
 &to_layer_0 Q  &to_layer_0 L  &to_layer_0 U  &to_layer_0 COMMA  &to_layer_0 PERIOD                            &to_layer_0 F  &to_layer_0 W  &lt 5 R   &to_layer_0 Y  &lt 5 P
 &to_layer_0 A  &to_layer_0 S  &to_layer_0 A  &to_layer_0 O      &to_layer_0 MINUS      &trans      &kp LC(V)  &to_layer_0 K  &mkp MB1       &mkp MB3  &mkp MB2       &trans
-&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V      &to_layer_0 SEMICOLON  &trans      &kp LC(C)  &to_layer_0 G  &mkp MB4       &trans    &mkp MB5       &kp LC(Z)
+&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V      &to_layer_0 SEMICOLON  &to 0       &kp LC(C)  &to_layer_0 G  &mkp MB4       &trans    &mkp MB5       &kp LC(Z)
 &trans         &trans         &trans         &trans             &trans                 &trans      &trans     &trans                                                 &trans
             >;
         };
