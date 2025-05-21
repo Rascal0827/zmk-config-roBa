@@ -213,7 +213,6 @@
             >;
 
             sensor-bindings = <&inc_dec_kp LA(TAB) LS(LA(TAB))>;
-            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
