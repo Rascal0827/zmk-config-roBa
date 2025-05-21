@@ -119,6 +119,15 @@
             mods = <(MOD_LALT|MOD_RALT)>;
             keep-mods = <(MOD_LALT)>;
         };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "NEW_BEHAVIOR";
+            #sensor-binding-cells = <0>;
+            bindings = <&alt_p>, <&alt_n>;
+
+            tap-ms = <20>;
+        };
     };
 
     keymap {
@@ -162,7 +171,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans           &trans  &trans                                                     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LA(TAB) LC(LS(TAB))>;
+            sensor-bindings = <&new_behavior>;
             sensor-bindings = <&scroll_up_down>;
         };
 
