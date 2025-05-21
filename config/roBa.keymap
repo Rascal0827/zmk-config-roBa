@@ -106,6 +106,7 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp 0>, <&kp TAB>;
+
             mods = <(MOD_LALT|MOD_RALT)>;
             keep-mods = <(MOD_LALT)>;
         };
@@ -114,10 +115,11 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp 0>, <&kp LS(TAB)>;
+
             mods = <(MOD_LALT|MOD_RALT)>;
             keep-mods = <(MOD_LALT)>;
         };
-     };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -160,7 +162,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans           &trans  &trans                                                     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp LA(TAB) LC(LS(TAB))>;
             sensor-bindings = <&scroll_up_down>;
         };
 
